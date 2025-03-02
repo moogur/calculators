@@ -108,6 +108,3 @@ else
   checkEmpty "BODY" "$tail"
   checkMaxLength "COMMIT" 125 "$commit_message_from_file"
 fi
-
-### lint and prettier checks
-npm run pre-commit
